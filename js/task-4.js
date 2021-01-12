@@ -17,9 +17,7 @@ class StringBuilder {
 
   pad(str) {
     this._value = str + this._value + str;
-
   }
- 
 }
 
 const builder = new StringBuilder('.');
